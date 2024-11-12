@@ -1,0 +1,165 @@
+/*FORMATAÇÃO GERAL*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*FORMATAÇÃO TOPO*/
+header {
+    background-color: #3B8686;
+    padding: 30px 10vw 30px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 40px 0 0 ;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+header nav .atual {
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px 5px 15px;
+    border-radius: 17px;
+}
+header nav .atual:hover {
+    background: rgba(255,255,255,0.5);
+}
+
+/*FORMATAÇÃO BANNER*/
+
+section.banner {
+    background:
+    linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), 
+    url(../src/images/banner.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 20vw 10vw 3vw 10vw;
+}
+section.banner h2{
+    color: white;
+    font-size: 3rem;
+    width: 30%;
+    background: rgba(59, 134, 134, 0.5);
+}
+section ul {
+    display: flex;
+    margin: 4vw 0 0 0;
+    text-align: center;
+}
+section.etapas ul li h3 {
+    margin: 10px 0 20px 0;
+}
+section.etapas ul li {
+    margin: 1vw 8vw 2vw 8vw;
+}
+
+section.etapas ul li p {
+    color: #747474;
+    font-size: 0.7rem;
+}
+section.etapas span {
+    font-size: 2rem;
+    color: #3B8686;
+}
+section.etapas ul li p a {
+    background-color: #3B8686;
+    padding: 10px 25px 10px 25px;
+}
+section.etapas .lermore {
+    margin: 30px;
+    font-weight: bolder;
+}
+section.mais {
+    background:
+    linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), 
+    url(../src/images/numeros.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    /*padding: 2vw 10vw 3vw 10vw;*/
+}
+section.mais ul {
+    display: flex;
+}
+section.mais ul li {
+    margin: 4vw;
+    color: white;
+    font-size: 3rem;
+}
+section.mais ul li p {
+    font-size: 1.7rem;
+    margin: 12px 2vw 0 2vw;
+    font-weight: bolder;
+}
+section.posibilit ul {
+    display: flex;
+}
+section.posibilit h3 {
+    color: #0B486B;
+    font-size: 2rem;
+    text-align: left;
+    margin: 5vw 2vw 2vw 5vw;
+}
+section.posibilit p {
+    color: #747474;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0 0 0 5vw;
+}
+section.posibilit p button {
+    background-color: #0B486B;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    margin: 1vw 1vw 0 0;
+}
+section.posibilit ul li img {
+    margin: 0 5vw 8vw 25vw;
+}
+footer {
+    background-color: #3B8686;
+}
+footer {
+    display: flex;
+    color: white;
+}
+footer div.redes ul{
+    display: flex;
+    margin: 2vw 0 20px 5vw
+}
+footer div.redes p {
+    margin: 0 0 0 5vw;
+}
+footer div.redes ul li {
+    margin: 8px;
+    font-size: 1.7rem;
+}
+footer div.contato {
+    font-size: 1rem;
+    margin: 2vw 0 0 25vw;
+}
+footer div.contato ul li p {
+    margin: 10px 0 0 0;
+}
+footer div.contato h4 {
+    font-weight: bolder;
+}
+footer div.contato p span {
+    font-size: 0.8rem;
+    font-weight: normal;
+
+}
+footer div.pp {
+    margin: 0 0 20px 0;
+}
+footer div.pp ul li {
+    margin: 15px 5vw 5px 30vw; 
+}
