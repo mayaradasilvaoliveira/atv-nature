@@ -90,7 +90,7 @@ section.mais ul {
     display: flex;
 }
 section.mais ul li {
-    margin: 4vw;
+    margin: 4vw 7vw 4vw 7vw;
     color: white;
     font-size: 3rem;
 }
